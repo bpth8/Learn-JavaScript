@@ -8,8 +8,12 @@ const dateEvent = '2024-07-30';
 const yearEvent = dateEvent.slice(0, 4);
 const monthEvent = dateEvent.slice(5, 7);
 const dayEvent = dateEvent.slice(8, 10);
-
 console.log(`Год: "${yearEvent}" / Месяц: "${monthEvent}" / День: "${dayEvent}"`);
+
+//2 cпособ
+const dateEventTwoVariant = '2024-07-30';
+const [yearEventTwo, monthEventTwo, dayEventTwo] = dateEventTwoVariant.split('-');
+console.log(`Год: "${yearEventTwo}" / Месяц: "${monthEventTwo}" / День: "${dayEventTwo}"`); 
 
 // 3. поиск и замена
 const searchAndReplace = 'Я люблю JavaScript! Я люблю это дело';
