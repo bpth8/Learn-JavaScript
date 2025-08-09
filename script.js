@@ -14,6 +14,7 @@
 
 // 3. калькулятор
 
+
 // 4. тест длины строк
 
 
@@ -33,7 +34,11 @@
 // };
 
 // 6. тест е-мэйл
-const userMail = prompt("Введите свой e-mail", '');
-
+// const userMail = prompt("Введите свой e-mail", '');
+// const wordMail = "@";
+// alert(`${userMail.includes(wordMail)}`);
 
 // 7. палиндром
+// const userWordPalindrome = prompt("Введите слово:", '');
+// const resultPalindrome = 
+// alert(userWordPalindrome != 'довод');
