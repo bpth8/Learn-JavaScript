@@ -92,5 +92,54 @@ console.log(sum);
 let count = numbers.filter(num => num === 2).length;
 console.log(count);
 
-// 2. a.
+// 2. 
+let arr = [10, 20, 30, 40];
 
+// a.
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+
+let average = sum / arr.length;
+console.log(average);
+
+// b.
+let sum = arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+let average = sum / arr.length;
+
+console.log(average);
+
+//3. 
+//a.
+let arr = [1, 2, 3, 4, 5, 6];
+let evenNumbers = [];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 === 0) {
+    evenNumbers.push(arr[i]);
+  }
+}
+
+console.log(evenNumbers);
+
+//b.
+let arr = [1, 2, 3, 4, 5, 6];
+let evenNumbers = arr.filter(number => number % 2 === 0);
+console.log(evenNumbers);
+
+//4.
+let arr = [1, 2, 3];
+//a
+let doubledArr = [];
+
+for (let i = 0; i < arr.length; i++) {
+  doubledArr.push(arr[i] * 2);
+}
+
+console.log(doubledArr);
+
+//b
+let doubledArr = arr.map(number => number * 2);
+console.log(doubledArr);
