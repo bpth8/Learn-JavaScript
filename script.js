@@ -111,4 +111,35 @@ for (const animal of objAnimals) {
 console.log('домашнее животные: ', domestic, "дикие животные: ", wild);
 
 //4
-const objPlayers = [{name: 'Анна', score: 85}, {name: 'Борис', score: 95}, {name: 'Вика', score: 76}]
+const objPlayers = [
+  {name: 'Анна', score: 85},
+  {name: 'Борис', score: 95},
+  {name: 'Вика', score: 76}];
+
+let minScore = objPlayers[0].score;
+let minPlayer = objPlayers[0];
+
+for (let i = 1; i < objPlayers.length; i++) {
+  if (objPlayers[i].score < minScore) {
+    minScore = objPlayers[i].score;
+    minPlayer = objPlayers[i];
+  }
+}
+
+console.log(`Игрок с наименьшим счётом: ${minPlayer.name}, счёт: ${minPlayer.score}`);
+
+//5
+const newProducts = [
+  {id: 4, name: 'Чашка'},
+  {id: 5, name: 'Блюдце'}]; 
+  
+const oldProducts = [ 
+  {id: 1, name: 'Ложка'},
+  {id: 2, name: 'Вилка'}]; 
+  
+const objCombined = [...newProducts, ...oldProducts]; 
+console.log(objCombined);
+// глубоко ключи objCombined не видит и присваивается андефайнд
+// можно найти с помощью мап
+const names = objCombined.map(item => item.name);
+console.log(names);
