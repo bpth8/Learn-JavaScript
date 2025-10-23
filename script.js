@@ -1,14 +1,16 @@
 import {
-  discountedProducts,
-  stringToNumberConversion, 
-  updatedNumbers, 
-  capitalizedString, 
-  fahrenheit, 
-  fruitLenght, 
+  newNum, 
   keysName, 
-  newNum } from './array/arrayMap.js';
+  fruitLenght, 
+  fahrenheit, 
+  capitalizedString, 
+  updatedNumbers, 
+  stringToNumberConversion, 
+  discountedProducts 
+} from './array/arrayMap.js';
 
 import './array/arrayFilter.js';
+
 import './array/arrayReduce.js';
 
 console.log('Array.map()')
@@ -21,3 +23,21 @@ console.log('Array.map()')
 /*7 */ console.log(updatedNumbers);
 /*8 */ console.log(stringToNumberConversion)
 /*9 */ console.log(discountedProducts);
+
+console.log('Array.filter()');
+/*1 */
+/*2 */
+/*3 */
+/*4 */
+/*5 */
+/*6 */
+/*7 */
+/*8 */
+
+console.log('Array.reduce()');
+/*1 */
+/*2 */
+/*3 */
+/*4 */
+/*5 */
+/*6 */
