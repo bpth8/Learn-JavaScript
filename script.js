@@ -20,7 +20,13 @@ import {
   uniqueNumbers
 } from './array/arrayFilter.js';
 
-import './array/arrayReduce.js';
+import { 
+  resultNumbers,
+  resultNumber,
+  resultStr,
+  result,
+  arrReduce
+} from './array/arrayReduce.js';
 
 console.log('Array.map()')
 /*1 */ console.log(newNum);
@@ -44,9 +50,9 @@ console.log('Array.filter()');
 /*8 */ console.log(uniqueNumbers);
 
 console.log('Array.reduce()');
-/*1 */
-/*2 */
-/*3 */
-/*4 */
-/*5 */
-/*6 */
+/*1 */ console.log(resultNumbers);
+/*2 */ console.log(resultNumber);
+/*3 */ console.log(resultStr);
+/*4 */ 
+/*5 */ console.log(result);
+/*6 */ console.log(arrReduce);
