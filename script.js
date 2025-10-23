@@ -6,10 +6,19 @@ import {
   capitalizedString, 
   updatedNumbers, 
   stringToNumberConversion, 
-  discountedProducts 
+  discountedProducts
 } from './array/arrayMap.js';
 
-import './array/arrayFilter.js';
+import {
+  filterNumbers,
+  filterFruits,
+  filterObjUser,
+  filterArrayNumbers,
+  filterArrayFruits,
+  filterArrayCatalog,
+  filterArrayData,
+  uniqueNumbers
+} from './array/arrayFilter.js';
 
 import './array/arrayReduce.js';
 
@@ -25,14 +34,14 @@ console.log('Array.map()')
 /*9 */ console.log(discountedProducts);
 
 console.log('Array.filter()');
-/*1 */
-/*2 */
-/*3 */
-/*4 */
-/*5 */
-/*6 */
-/*7 */
-/*8 */
+/*1 */ console.log(filterNumbers);
+/*2 */ console.log(filterFruits);
+/*3 */ console.log(filterObjUser);
+/*4 */ console.log(filterArrayNumbers);
+/*5 */ console.log(filterArrayFruits);
+/*6 */ console.log(filterArrayCatalog);
+/*7 */ console.log(filterArrayData);
+/*8 */ console.log(uniqueNumbers);
 
 console.log('Array.reduce()');
 /*1 */
